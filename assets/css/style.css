@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1 {
+    margin-top: 1%;
+}
+#titreExpo {
+    margin-top: 1%;
+    width: 20%;
+    height: 5%;
+}
+#lien {
+    margin-top: 1%;
+    width: 20%;
+    height: 5%;
+}
+button {
+    margin-top: 1%;
+    width: 8%;
+    height: 4%;
+    background: blue;
+    color: ivory;
+}
+.recap {
+    margin-top: 1%;
+    display: flex;
+    width: 90%;
+    height: 5%;
+    background-color: aquamarine ;
+    
+}
+.numero {
+    width: 10%;
+    height: 100%;
+    display: flex;
+    align-items:  center;
+}
+.titre {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items:  center;
+}
+.suppression {
+    width: 10%;
+    height: 100%;
+    display: flex;
+    align-items:  center;
+}
+button .suppression {
+    height: 100%;
+    background: "";
+    /* color: rgb(212, 7, 7); */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
